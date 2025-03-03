@@ -26,6 +26,11 @@ This project is a simple cryptocurrency price tracker built using Next.js and Re
 2. Install dependencies:
    ```bash
    npm install
+
+   OR
+
+   npm install --legacy-peer-deps
+
 3. Run the development server:
    ```bash
    npm run dev
@@ -40,6 +45,10 @@ This project is a simple cryptocurrency price tracker built using Next.js and Re
 2. Install Docusaurus dependencies
    ```bash
    npm install
+
+   OR
+
+   npm install --legacy-peer-deps
 3. Start the Docusaurus server:
    ```bash
    npm run start

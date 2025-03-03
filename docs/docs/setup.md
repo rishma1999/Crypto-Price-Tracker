@@ -11,9 +11,13 @@
    ```bash
    cd web-app
 2. Install dependencies:
-  npm install
+   ```bash
+   npm install
 
+   OR
+
+   npm install --legacy-peer-deps
 3. Run the development server:
-  npm run dev
-
+    ```bash
+    npm run dev
 4. Open your browser and visit http://localhost:3000
