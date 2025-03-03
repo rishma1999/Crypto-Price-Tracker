@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///Users/rishmamanna/Crypto-Price-Tracker/web-app/src/pages/_app.js"],"sourcesContent":["// src/pages/_app.js\nimport { QueryClient, QueryClientProvider } from 'react-query';\nimport '../styles/globals.css'; // Adjust the path if necessary\n\nconst queryClient = new QueryClient();\n\nfunction MyApp({ Component, pageProps }) {\n  return (\n    <QueryClientProvider client={queryClient}>\n      <Component {...pageProps} />\n    </QueryClientProvider>\n  );\n}\n\nexport default MyApp;\n"],"names":[],"mappings":"AAAA,oBAAoB;;;;;AACpB;;;;AAGA,MAAM,cAAc,IAAI,qHAAA,CAAA,cAAW;AAEnC,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,qBACE,qKAAC,qHAAA,CAAA,sBAAmB;QAAC,QAAQ;kBAC3B,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAG9B;uCAEe","debugId":null}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/Spinner.module.css"],"sourcesContent":["/* src/components/Spinner.module.css */\n.spinner {\n    display: inline-block;\n    width: 80px;\n    height: 80px;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n  }\n  \n  .spinner div {\n    box-sizing: border-box;\n    display: block;\n    position: absolute;\n    width: 64px;\n    height: 64px;\n    margin: 8px;\n    border: 8px solid #3498db;\n    border-radius: 50%;\n    animation: spinner 1.2s infinite;\n    border-color: #3498db transparent transparent transparent;\n  }\n  \n  .spinner div:nth-child(1) {\n    animation-delay: -0.45s;\n  }\n  \n  .spinner div:nth-child(2) {\n    animation-delay: -0.3s;\n  }\n  \n  .spinner div:nth-child(3) {\n    animation-delay: -0.15s;\n  }\n  \n  @keyframes spinner {\n    0% {\n      transform: rotate(0deg);\n    }\n    100% {\n      transform: rotate(360deg);\n    }\n  }\n  "],"names":[],"mappings":"AACA;;;;;;;;;;AAUE;;;;;;;;;;;;;AAaA;;;;AAIA;;;;AAIA;;;;AAIA"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

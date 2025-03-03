@@ -1,0 +1,48 @@
+/* [project]/src/components/Spinner.module.css [client] (css) */
+.Spinner-module__YHEfAG__spinner {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Spinner-module__YHEfAG__spinner div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #3498db;
+  border-radius: 50%;
+  animation: 1.2s infinite Spinner-module__YHEfAG__spinner;
+  border-color: #3498db #0000 #0000;
+}
+
+.Spinner-module__YHEfAG__spinner div:first-child {
+  animation-delay: -.45s;
+}
+
+.Spinner-module__YHEfAG__spinner div:nth-child(2) {
+  animation-delay: -.3s;
+}
+
+.Spinner-module__YHEfAG__spinner div:nth-child(3) {
+  animation-delay: -.15s;
+}
+
+@keyframes Spinner-module__YHEfAG__spinner {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*# sourceMappingURL=src_components_Spinner_module_d1bb96d7.css.map*/
